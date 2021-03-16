@@ -46,12 +46,19 @@
 }
 
 .unit:nth-child(1) {
+    animation-name: none;
+    stroke: #cccccc;
+    stroke-dasharray: 82 14;
+    stroke-dashoffset: -82;
+}
+
+.unit:nth-child(2) {
     stroke: #fcd329;
     stroke-dasharray: 39 61;
     stroke-dashoffset: -82;
 }
 
-.unit:nth-child(2) {
+.unit:nth-child(3) {
     stroke: #70a84b;
     stroke-dasharray: 25 75;
     stroke-dashoffset: -21;
@@ -240,18 +247,14 @@
     color: #9d9d9c;
 }
 
-.vl {
-    border-left: 3px solid #cccccc;
-    height: 340px;
+.line {
     position: absolute;
-    left: 50px;
+    box-sizing: border-box;
+    border-radius: 10px 0 0 10px;
     top: 230px;
-}
-
-.gl {
-    border-top: 2px solid #cccccc;
-    width: 35px;
-    position: absolute;
-    left: 50px;
-    top: 230px;
+    width: 70px;
+    height: 355px;
+    border-left: 3px solid #9d9d9c;
+    border-top: 3px solid #9d9d9c;
+    border-bottom: 3px solid #9d9d9c;
 }
