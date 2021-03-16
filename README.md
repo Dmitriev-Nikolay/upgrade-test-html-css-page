@@ -1,3 +1,3 @@
 # test-diagram
 
-https://dmitrieva-anna.github.io/test-diagram/
+https://dmitriev-nikolay.github.io/upgrade-test-html-css-page/
