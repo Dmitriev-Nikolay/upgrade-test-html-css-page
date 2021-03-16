@@ -16,10 +16,6 @@
     }
 }
 
-body {
-    overflow-y: hidden;
-}
-
 .header_main {
     display: flex;
     justify-content: center;
